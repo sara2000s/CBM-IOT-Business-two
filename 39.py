@@ -15,7 +15,7 @@ ANNUAL_FRAUD_SAVINGS = 500000  # صرفه‌جویی سالانه ناشی از 
 ANNUAL_HOSPITALIZATION_SAVINGS = 200000  # صرفه‌جویی سالانه ناشی از کاهش بستری شدن
 TOTAL_ANNUAL_SAVINGS = ANNUAL_FRAUD_SAVINGS + ANNUAL_HOSPITALIZATION_SAVINGS  # مجموع صرفه‌جویی سالانه
 
-# تابع شبیه‌سازی کاهش بستری شدن
+# تابع  کاهش بستری شدن
 def simulate_hospitalization(row):
     monitoring_effectiveness = random.uniform(0, 1)  # احتمال کاهش بستری شدن بین 0 و 1
     if monitoring_effectiveness > 0.7:  # فرض کنیم نظارت از راه دور با احتمال 70% مؤثر است
